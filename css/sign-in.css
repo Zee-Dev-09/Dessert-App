@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5F6FA ;
+}
+.container{
+    width: 80%;
+    max-width: 25rem;
+    height: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+.card{
+    width: 326px;
+    height: 599px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+.sign{
+    text-align: center;
+}
+.sign-up{
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.name-input{
+    width: 242px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.2rem;
+    background-color: #F0F2F5;
+    border-radius: 10px;
+    padding-left: 1.2rem;
+}
+.submit-button{
+    width: 242px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #f912cb;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.button{
+    width: 242px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(97, 70, 248);
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.log-in{
+    width: 242px;
+    height: 50px;
+    border-radius: 10px;
+    background: linear-gradient(
+        45deg,
+        pink,
+        blue,
+        rgb(255, 2, 255)
+    ); 
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    text-align: center;
+    margin-top: 1.4rem;
+}
+.info a{
+    text-decoration: none;
+    color: rgb(247, 47, 80);
+}
+.message{
+    width: 242px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #F5F6FA;
+    color:black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

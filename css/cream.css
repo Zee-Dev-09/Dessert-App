@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+.card{
+    width: 393px;
+    height: 852px;
+    background-color: #F9F9F9;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+    margin-top: 1.94rem;
+}
+.cream{
+    font-family: "Italianno";
+    font-weight: 300;
+    font-size: 48px;
+}
+.product-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.button{
+    width: 82px;
+    height: 29px;
+    background: linear-gradient(
+        45deg,
+        #E900A3,
+        #FF3030
+    );
+    border: none;
+    border-radius: 20px;
+    margin-top: 1rem;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-card{
+    width: 150px;
+    height: 197px;
+}
+.cream2{
+    text-align: center;
+}
+.back{
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(
+        45deg,
+        #E900A3,
+        #FF3030
+    );
+    border-radius: 1.66px;
+}
+.buy{
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(
+        45deg,
+        #E900A3,
+        #FF3030
+    );
+    border-radius: 1.66px;
+    border: none;
+    width: 5.7rem;
+    height: 1.99rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.cotton-candy{
+    display: block;
+    margin: auto;
+}
+.strawberry{
+    width: 8rem;
+}

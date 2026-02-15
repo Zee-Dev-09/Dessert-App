@@ -1,0 +1,39 @@
+.card{
+    height: 852px;
+    width: 393px;
+    border-radius: 1rem;
+    background-color: #EDEAEA;
+    margin: auto;
+    padding: 1rem;
+}
+.header{
+    font-style: italic;
+}
+.dessert{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.back{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 3px;
+    background-color: fuchsia;
+    text-decoration: none;
+    color: white;
+}
+.strawberry-milkshake{
+    display: flex;
+    align-items: center;
+}
+.button{
+    width: 3.5rem;
+    height: 2.1rem;
+    border-radius: 3px;
+    background-color: fuchsia;
+    text-decoration: none;
+    color: white;
+    border: none;
+    margin-left: 31rem;
+}
