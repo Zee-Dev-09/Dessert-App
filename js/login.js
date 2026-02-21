@@ -13,7 +13,7 @@ loginBtn.addEventListener("click",()=>{
     if(passwordinput.value==password){
         window.location="links.html"
     }else{
-        message.textContent="Incorrect password try 2017"
+        message.textContent="Incorrect password try 111491018"
         message.style.color="Red"
     }
 })

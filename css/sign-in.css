@@ -123,3 +123,25 @@ body{
     align-items: center;
     justify-content: center;
 }
+@media only screen and (max-width:350px){
+    .card{
+        width: 95%;
+        height: 599px;
+        border-radius: 16px;
+        background-color: #FFFFFF;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+
+}
+
+.container{
+    width: 100%;
+    max-width: 25rem;
+    height: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+}
