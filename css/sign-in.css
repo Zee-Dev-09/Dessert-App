@@ -14,6 +14,9 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .card{
     width: 326px;
@@ -41,7 +44,7 @@ body{
     text-align: center;
 }
 .name-input{
-    width: 242px;
+    width: 80%;
     height: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -51,7 +54,7 @@ body{
     padding-left: 1.2rem;
 }
 .submit-button{
-    width: 242px;
+    width: 80%;
     height: 50px;
     border-radius: 10px;
     background-color: #f912cb;
@@ -65,7 +68,7 @@ body{
     text-decoration: none;
 }
 .button{
-    width: 242px;
+    width: 80%;
     height: 50px;
     border-radius: 10px;
     background-color: rgb(97, 70, 248);
@@ -81,7 +84,7 @@ body{
     justify-content: center;
 }
 .log-in{
-    width: 242px;
+    width: 80%;
     height: 50px;
     border-radius: 10px;
     background: linear-gradient(
@@ -109,7 +112,7 @@ body{
     color: rgb(247, 47, 80);
 }
 .message{
-    width: 242px;
+    width: 80%;
     height: 50px;
     border-radius: 10px;
     background-color: #F5F6FA;
@@ -123,7 +126,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-@media only screen and (max-width:350px){
+@media only screen and (max-width:375px){
     .card{
         width: 95%;
         height: 599px;
@@ -135,13 +138,15 @@ body{
         flex-direction: column;
 
 }
-
 .container{
     width: 100%;
-    max-width: 25rem;
+    max-width: 100%;
     height: 30rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 }
