@@ -13,7 +13,10 @@ body{
     gap: 1rem;
     flex-direction: column;
     overflow: auto;
-    height: 30rem;
+
+    background-color: #FFFFFF;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
 }
 .button{
     height: 78px;
