@@ -19,6 +19,7 @@ body{
     justify-content: center;
 }
 .card{
+    margin: 2rem auto;
     width: 326px;
     height: 599px;
     border-radius: 16px;
@@ -126,6 +127,9 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+
+
 @media only screen and (max-width:375px){
     .card{
         width: 95%;
@@ -136,6 +140,7 @@ body{
         margin-right: auto;
         display: flex;
         flex-direction: column;
+        margin-top: 2rem;
 
 }
 .container{
