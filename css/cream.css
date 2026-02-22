@@ -3,7 +3,7 @@ body{
 }
 .card{
     width: 393px;
-    height: 852px;
+    height: auto;
     background-color: #F9F9F9;
     margin-left: auto;
     margin-right: auto;
@@ -14,6 +14,7 @@ body{
     font-family: "Italianno";
     font-weight: 300;
     font-size: 48px;
+    margin-left: 1rem;
 }
 .product-container{
     display: flex;
@@ -21,6 +22,7 @@ body{
     justify-content: center;
     gap: 1rem;
     margin-top: 1rem;
+    flex-wrap: wrap;
 }
 .button{
     width: 82px;
@@ -46,6 +48,8 @@ body{
     text-align: center;
 }
 .back{
+    width: 5.7rem;
+    height: 1.99rem;
     color: white;
     text-decoration: none;
     background: linear-gradient(
@@ -54,6 +58,11 @@ body{
         #FF3030
     );
     border-radius: 1.66px;
+    display: block;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .buy{
     color: white;
@@ -68,7 +77,6 @@ body{
     width: 5.7rem;
     height: 1.99rem;
     margin-left: 3rem;
-    margin-top: 1rem;
 }
 .cotton-candy{
     display: block;
@@ -76,4 +84,38 @@ body{
 }
 .strawberry{
     width: 8rem;
+}
+
+@media only screen and (max-width:375px){
+    .card{
+        width: 100%;
+        height: auto;
+        background-color: #F9F9F9;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 1rem;
+        margin-top: 0;
+}
+
+    .wallpaper{
+        width: 95%;
+    }
+
+    .product-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1rem;
+        flex-wrap: wrap;
+}
+
+}
+ 
+.button-links{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 1rem 1rem;
 }
